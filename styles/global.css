@@ -1,0 +1,60 @@
+:root {
+	/* utility colors */
+	--color-primary: #ff0000;
+	--color-secondary: #00ff00;
+	--color-black: #000;
+	--color-white: #fff;
+	/* yellow */
+	--color-yellow-dark: #FBC412;
+	--color-yellow-main: #FFEB00;
+	--color-yellow-mid: #FFE17E;
+	/* blue */
+	--color-blue-dark: #1f5a95;
+	--color-blue-main: #336EB0;
+	--color-blue-mid: #326DB0;
+	/* navy */
+	--color-navy-main: #252E3C;
+	--color-navy-mid1: #55606F;
+	--color-navy-mid2: #a9b1b7;
+	--color-navy-light1: #d4d6d8;
+	--color-navy-light2: #EDEFF0;
+}
+
+/* fonts */
+@font-face { 
+    font-family: 'Soehne Breit Buch';
+    src: url('/fonts/test-soehne-breit-buch.woff') format('woff');
+}
+@font-face { 
+    font-family: 'Soehne Breit Dreiviertelfett';
+    src: url('/fonts/soehne-breit-web-dreiviertelfett.woff') format('woff');
+}
+@font-face { 
+    font-family: 'Proxima Nova Bold';
+    src: url('/fonts/proximanova-bold-webfont.woff') format('woff');
+}
+
+@font-face { 
+    font-family: 'Proxima Nova Medium';
+    src: url('/fonts/proximanova-medium-webfont.woff') format('woff');
+}
+
+html, 
+body
+{
+  padding: 0;
+  margin: 0;
+  font-family:  "Proxima Nova Medium", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.4;
+  font-size: 18px;
+  font-weight: 300;
+  background: var(--color-blue-main);
+  color: #a5a59d;
+  scroll-behavior: smooth;
+}
+
+.allcaps
+{
+	text-transform: uppercase;
+}
